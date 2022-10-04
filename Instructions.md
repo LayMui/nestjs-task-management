@@ -46,4 +46,14 @@ nest g module tasks
 ```
 It will generate a subfolder tasks where we have a new file tasks.module.ts and modification in the app.module.ts.
 Now tasks module is in our app.
-2. 
+2. Properties available for the @Module decorator:
+    ```
+    imports, exports, controllers, providers
+    ```
+
+
+reference: 
+https://github.com/arielweinberger/nestjs-course-task-management/tree/s1-task-management-app
+
+NestJS Pipe - Validator
+https://github.com/typestack/class-validator
