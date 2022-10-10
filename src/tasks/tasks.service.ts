@@ -1,10 +1,10 @@
 import { CreateTaskDto } from './dto/create-task.dto';
-import { Task, TaskStatus } from './tasks.model';
 import { Injectable } from '@nestjs/common';
 import { v4 as uuid } from 'uuid';
 import { create } from 'domain';
 import { filter } from 'rxjs';
 import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
+import { Task, TaskStatus } from './task.model';
 @Injectable()
 export class TasksService {
   private tasks: Task[] = [];
